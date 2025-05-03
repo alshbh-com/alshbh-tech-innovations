@@ -28,7 +28,14 @@ const Navbar = () => {
       )}
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
-        <a href="#" className="text-2xl font-bold text-gradient glow">𝘼𝙇𝙎𝙃𝘽𝙃</a>
+        <a href="#" className="flex items-center gap-2">
+          <img 
+            src="public/lovable-uploads/efd76f76-9611-4e9d-ac28-f7c3646352c9.png" 
+            alt="Alshbh Logo" 
+            className="h-10 w-10 object-contain"
+          />
+          <span className="text-2xl font-bold text-gradient glow">Alshbh</span>
+        </a>
         
         {/* Desktop navigation */}
         <div className="hidden md:flex gap-8 items-center">

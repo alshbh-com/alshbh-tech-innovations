@@ -13,19 +13,19 @@ const Hero = () => {
         <div className="md:w-1/2 mb-12 md:mb-0">
           <div className="w-64 h-64 mx-auto relative animate-float">
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-neon/30 to-emerald-400/30 blur-xl"></div>
-            <div className="absolute inset-2 bg-dark-300 rounded-full flex items-center justify-center">
-              <span className="text-7xl text-gradient font-bold">𝘼𝙇</span>
-            </div>
-            <div className="absolute -bottom-4 -right-4 w-48 h-48 rounded-full bg-gradient-to-r from-neon/30 to-emerald-400/30 blur-xl"></div>
-            <div className="absolute -bottom-2 -right-2 w-48 h-48 bg-dark-300 rounded-full flex items-center justify-center">
-              <span className="text-7xl text-gradient font-bold">𝙎𝙃𝘽𝙃</span>
+            <div className="absolute inset-2 bg-dark-300 rounded-full flex items-center justify-center overflow-hidden">
+              <img 
+                src="public/lovable-uploads/efd76f76-9611-4e9d-ac28-f7c3646352c9.png" 
+                alt="Alshbh Logo" 
+                className="w-48 h-48 object-contain"
+              />
             </div>
           </div>
         </div>
         
         <div className="md:w-1/2 text-center md:text-right">
           <h1 className="text-4xl md:text-6xl font-bold mb-4">
-            <span className="text-gradient glow">𝘼𝙇𝙎𝙃𝘽𝙃</span> <br />
+            <span className="text-gradient glow">Alshbh</span> <br />
             <span className="text-white">للحلول التقنية المبتكرة</span>
           </h1>
           <p className="text-gray-300 text-lg md:text-xl mb-8">
@@ -35,6 +35,17 @@ const Hero = () => {
             <Button className="bg-neon text-black hover:bg-neon/90 font-bold">اكتشف خدماتنا</Button>
             <Button variant="outline" className="border-neon text-neon hover:bg-neon/10">تواصل معنا</Button>
           </div>
+        </div>
+      </div>
+      
+      {/* Team Image */}
+      <div className="mt-12 mb-24 max-w-4xl mx-auto px-4">
+        <div className="rounded-xl overflow-hidden shadow-2xl border border-white/10">
+          <img 
+            src="public/lovable-uploads/7a281046-b96b-4752-9ad1-4c70242951a4.png" 
+            alt="Alshbh Team" 
+            className="w-full object-cover"
+          />
         </div>
       </div>
       
