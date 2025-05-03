@@ -29,11 +29,13 @@ const Navbar = () => {
     >
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <a href="#" className="flex items-center gap-2">
-          <img 
-            src="public/lovable-uploads/efd76f76-9611-4e9d-ac28-f7c3646352c9.png" 
-            alt="Alshbh Logo" 
-            className="h-10 w-10 object-contain"
-          />
+          <div className="h-10 w-10 overflow-hidden rounded-full border border-neon/30">
+            <img 
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=64&h=64" 
+              alt="Tech Logo" 
+              className="h-full w-full object-cover"
+            />
+          </div>
           <span className="text-2xl font-bold text-gradient glow">Alshbh</span>
         </a>
         

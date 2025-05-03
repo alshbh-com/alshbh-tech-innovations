@@ -15,9 +15,9 @@ const Hero = () => {
             <div className="absolute inset-0 rounded-full bg-gradient-to-r from-neon/30 to-emerald-400/30 blur-xl"></div>
             <div className="absolute inset-2 bg-dark-300 rounded-full flex items-center justify-center overflow-hidden">
               <img 
-                src="public/lovable-uploads/7a281046-b96b-4752-9ad1-4c70242951a4.png" 
-                alt="Alshbh Team" 
-                className="w-48 h-48 object-contain"
+                src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&q=80&w=300&h=300" 
+                alt="Programming Code" 
+                className="w-48 h-48 object-cover"
               />
             </div>
           </div>
@@ -38,13 +38,13 @@ const Hero = () => {
         </div>
       </div>
       
-      {/* Team Image */}
+      {/* Tech Image */}
       <div className="mt-12 mb-24 max-w-4xl mx-auto px-4">
         <div className="rounded-xl overflow-hidden shadow-2xl border border-white/10">
           <img 
-            src="public/lovable-uploads/efd76f76-9611-4e9d-ac28-f7c3646352c9.png" 
-            alt="Alshbh Logo" 
-            className="w-full object-cover"
+            src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=1200" 
+            alt="Tech Circuit" 
+            className="w-full object-cover h-64"
           />
         </div>
       </div>
